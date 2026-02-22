@@ -1,29 +1,33 @@
 .header {
     display: flex;
-    align-items:center;
-    padding-left: 20px;
-    padding-right: 20px;
-    gap: 200px;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
     
 }
 
 .header__name {
     font-size: 24px;
-   
+    flex-shrink: 0; 
 }
 
+.header__links {
+    margin: 0 auto; 
+}
 
 .header__links_style {
     font-size: 16px;
     list-style: none;
     display: flex;
     gap: 60px;
-    flex: 1;
+    margin: 0;
+    padding: 0;
 }
 
 .header__tools {
     display: flex;
     gap: 26px;
+    flex-shrink: 0; 
 }
 
 .description {
@@ -33,6 +37,7 @@
     height: 560px;
     text-align: left;
     
+    
 }
 
 .description__left {
@@ -41,9 +46,10 @@
 
 .description__right {
     background-color: #154444;
-    margin-right: 20px;
+    margin-right: 120px;
     margin-bottom: unset;
-    padding-left: 20px;
+    padding-left: 100px;
+    
     
 }
 
@@ -54,4 +60,53 @@
 
 p {
     font-size: 20px;
+}
+
+.text_companies {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+
+.icon_companies {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 1,082px;
+    height: 51.97px;
+}
+
+.sofa {
+    display: flex;
+    padding-left: 136.01px;
+    padding-right: 136.01px;
+    margin-top: 140px;
+    gap: 100px;
+}
+
+.image_sofa {
+    width: 631.24px;
+    height: 612.21px;
+}
+
+.description_sofa {
+    width: 436.73px;
+    height: 517px;
+    margin-top: 46.5px;
+}
+
+.furniture {
+    display: flex;
+    padding-left: 121.9px;
+    margin-top: 140px;
+}
+
+.arrow {
+    padding-left: 302px;
+    padding-right: 120px;
+    width: 96px;
+    height: 40px;
+    margin-top: 82.56px;
 }
