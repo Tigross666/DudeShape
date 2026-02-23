@@ -1,29 +1,35 @@
 .header {
     display: flex;
-    align-items:center;
-    padding-left: 20px;
-    padding-right: 20px;
-    gap: 200px;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
     
 }
 
 .header__name {
     font-size: 24px;
-   
+    color: #244D4D;
+    flex-shrink: 0; 
 }
 
+.header__links {
+    margin: 0 auto;
+    color: #161616; 
+}
 
 .header__links_style {
     font-size: 16px;
     list-style: none;
     display: flex;
     gap: 60px;
-    flex: 1;
+    margin: 0;
+    padding: 0;
 }
 
 .header__tools {
     display: flex;
     gap: 26px;
+    flex-shrink: 0; 
 }
 
 .description {
@@ -33,6 +39,7 @@
     height: 560px;
     text-align: left;
     
+    
 }
 
 .description__left {
@@ -41,9 +48,10 @@
 
 .description__right {
     background-color: #154444;
-    margin-right: 20px;
+    margin-right: 120px;
     margin-bottom: unset;
-    padding-left: 20px;
+    padding-left: 100px;
+    
     
 }
 
@@ -54,4 +62,120 @@
 
 p {
     font-size: 20px;
+}
+
+.text_companies {
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    color: #244D4D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+
+.icon_companies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+}
+
+.sofa {
+    display: flex;
+    padding-left: 136.01px;
+    padding-right: 136.01px;
+    margin-top: 140px;
+    gap: 100px;
+}
+
+.image_sofa {
+    width: 631.24px;
+    height: 612.21px;
+}
+
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 436.73px;
+    height: 517px;
+    
+}
+
+.about__title h1 {
+    color: #244D4D;
+}
+
+.about__elements {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about__element {
+    display: flex;
+    gap: 28px;
+    
+}
+
+.about__element-img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.about__element-text h2 {
+    font-size: 20px;
+    margin-top: 0px;
+    color: #244D4D;
+    
+}
+
+.about__element-text p {
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+.furniture {
+    display: flex;
+    padding-left: 121.9px;
+    margin-top: 140px;
+    gap: 300px;
+}
+
+.furniture_popular h1 {
+    font-size: 32px;
+}
+
+.furniture_popular p {
+    font-size: 20px;
+}
+
+.arrow {
+    display: flex;
+    gap: 16px;
+    margin-top: 82.56px;
+    flex: 1;
+    padding-right: 120px;
+}
+
+.arrow__left {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+.arrow__right {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
 }
