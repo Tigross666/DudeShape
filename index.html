@@ -4,12 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/description.css">
+    <link rel="stylesheet" href="css/companies.css">
+    <link rel="stylesheet" href="css/sofa.css">
+    <link rel="stylesheet" href="css/furniture.css">
+    
 
     <title>DudeShape</title>
 </head>
 
-<body>
+<body class="root">
     <header class="header">
 
         <h2 class="header__name">DudeShape</h2>
@@ -26,21 +38,21 @@
         </div>
 
         <div class="header__tools">
-            <img src="images/loupe.svg" alt="---">
-            <img src="images/menu.svg" alt="">
+
+            <img src="images/loupe.svg" alt="search">
+            <img src="images/menu.svg" alt="menu">
+
         </div>
+
     </header>
 
     <div class="description">
 
-        <img class="description__left" src="images/chair.png" alt=""
-            style="padding-left: 120px; width: 411px; height: 560px;">
-
-
+        <img class="description__left" src="images/chair.png" alt="chair">
 
         <div class="description__right">
 
-            <h1 style="margin-bottom: unset;">
+            <h1 >
                 We Help You Make Modern Furniture
             </h1>
 
@@ -51,10 +63,13 @@
             </p>
 
             <button class="description__right_button">Explore More</button>
+
         </div>
+
     </div>
 
-    <h2 class="text_companies">
+    <div class="companies">
+<h2 class="text_companies">
         Trusted by 20,000+ companies
     </h2>
 
@@ -66,6 +81,8 @@
         <img src="images/visa.svg" alt="visa">
         <img src="images/stripe.svg" alt="stripe">
     </div>
+    </div>
+    
 
     <div class="sofa">
 
@@ -85,7 +102,9 @@
             </div>
 
             <div class="about__elements">
+
                 <div class="about__element">
+
                     <div class="about__element-img">
                         <img src="images/shield.svg" alt="shield">
                     </div>
@@ -99,8 +118,11 @@
                             materials and choices
                         </p>
                     </div>
+
                 </div>
+
                 <div class="about__element">
+
                     <div class="about__element-img">
                         <img src="images/tick.svg" alt="tick">
                     </div>
@@ -114,8 +136,11 @@
                             materials and choices
                         </p>
                     </div>
+
                 </div>
+
                 <div class="about__element">
+
                     <div class="about__element-img">
                         <img src="images/truck.svg" alt="truck">
                     </div>
@@ -129,29 +154,33 @@
                             materials and choices
                         </p>
                     </div>
+
                 </div>
+
             </div>
 
 
         </div>
+
     </div>
 
     <div class="furniture">
+
         <div class="furniture_popular">
             <h1>Our Popular Furniture</h1>
             <p>All of our furniture uses the best materials and choices for our customers.All of our <br>
                 furniture uses the best materials and choices for our customers.</p>
         </div>
-        <!--заменить на кнопки-->
+        
         <div class="arrow">
             <button class="arrow__left">
-                <img src="images/left_vector.svg" alt="">
+                <img src="images/left_vector.svg" alt="arrow right">
             </button>
             <button class="arrow__right">
-                <img src="images/right_vector.svg" alt="">
+                <img src="images/right_vector.svg" alt="arrow left">
             </button>
         </div>
-        
+
     </div>
 
 

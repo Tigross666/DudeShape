@@ -1,0 +1,55 @@
+.sofa {
+    display: flex;
+    margin-top: 140px;
+    justify-content: space-between;
+    
+}
+
+.image_sofa {
+    width: 631px;
+    height: 612px;
+}
+
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 436px;
+    height: 517px;
+
+}
+
+.about__title h1 {
+    color: #244D4D;
+}
+
+.about__elements {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about__element {
+    display: flex;
+    gap: 28px;
+
+}
+
+.about__element-img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.about__element-text h2 {
+    font-size: 20px;
+    margin-top: 0px;
+    color: #244D4D;
+
+}
+
+.about__element-text p {
+    font-size: 18px;
+    margin-top: 14px;
+}

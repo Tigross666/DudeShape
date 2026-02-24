@@ -1,0 +1,23 @@
+.description {
+    display: flex;
+    color: white;
+    font-size: 56px;
+    height: 560px;
+    text-align: left;
+}
+
+.description__right {
+    background-color: #154444;
+    font-size: 30px;
+    padding-inline: 100px;
+    
+}
+
+.description__right p {
+    font-size: 20px;
+}
+
+.description__right_button {
+    width: 172px;
+    height: 56px;
+}
