@@ -1,0 +1,35 @@
+.furniture {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    gap: 300px;
+}
+
+.furniture_popular h1 {
+    font-size: 32px;
+}
+
+.furniture_popular p {
+    font-size: 20px;
+}
+
+.arrow {
+    display: flex;
+    gap: 16px;
+    margin-top: 82px;
+    
+}
+
+.arrow__left {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+.arrow__right {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
